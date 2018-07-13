@@ -1,5 +1,5 @@
 author: "Eko Susilo"
 category: "admin"
-summary: "Mod presence demo"
+summary: "Get user presence"
 home: "https://github.com/iamucil/ejabberd-elixir-modules/tree/master/"
 url: "git@github.com:iamucil/ejabberd-elixir-modules.git"
