@@ -1,4 +1,4 @@
-defmodule ModPresenceDemo do
+defmodule ModPresenceDemoEx do
   @behaviour :gen_mod
   import Ejabberd.Logger
 
