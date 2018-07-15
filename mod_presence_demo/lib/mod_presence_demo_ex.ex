@@ -16,7 +16,6 @@ defmodule ModPresenceDemoEx do
 
   def on_presence(user, _server, _resource, packet) do
     info('Receive presence for #{user}')
-    info('#{inpect(packet)}')
     info(inspect(:xml.get_subtag(packet, "show")))
     :none
   end
