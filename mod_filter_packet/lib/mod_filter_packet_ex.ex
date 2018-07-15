@@ -15,7 +15,7 @@ defmodule ModFilterPacketEx do
   end
 
   def on_filter_packet({from, to, xml} = packet) do
-    info("Filtering packet: #{inpect(from, to, xml)}")
+    info("Filtering packet: #{from}")
     packet
   end
 end
