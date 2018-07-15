@@ -1,6 +1,6 @@
 defmodule ModFilterPacketEx do
-  # import Ejabberd.Logger
   @behaviour :gen_mod
+  import Ejabberd.Logger
 
   def start(_host, _opts) do
     info('Starting ejabberd module Filter Packet Demo')
