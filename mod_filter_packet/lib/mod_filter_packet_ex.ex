@@ -1,6 +1,6 @@
-defmodule ModFilterPacket do
-  import Ejabberd.Logger
+defmodule ModFilterPacketEx do
   @behaviour :gen_mod
+  import Ejabberd.Logger
 
   def start(_host, _opts) do
     info('Starting ejabberd module Filter Packet Demo')
@@ -15,7 +15,7 @@ defmodule ModFilterPacket do
   end
 
   def on_filter_packet({from, to, xml} = packet) do
-    info("Filtering packet: #{inpect(from, to, xml)}")
+    info("Filtering packet: #{inspect({from, to, xml})}")
     packet
   end
 end
