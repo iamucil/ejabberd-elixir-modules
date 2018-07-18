@@ -1,0 +1,5 @@
+author: "Gabriel Gatu"
+category: "admin"
+summary: "Elixir module"
+home: "https://github.com/processone/ejabberd-contrib/tree/master/"
+url: "git@github.com:processone/ejabberd-contrib.git"
