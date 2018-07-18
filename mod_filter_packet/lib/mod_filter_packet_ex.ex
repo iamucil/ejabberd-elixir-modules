@@ -1,5 +1,5 @@
 defmodule ModFilterPacketEx do
-  @behaviour :gen_mod
+  use Ejabberd.Module
 
   import Ejabberd.Logger
 
