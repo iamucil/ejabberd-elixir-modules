@@ -2,7 +2,7 @@
 
 Create folder in ejabberd installation
 
-  mkdir -p ${EJABBERD_HOME}/.ejabberd-modules/sources/ejabberd-contrib
+  mkdir -p ${EJABBERD_HOME}/.ejabberd-modules/sources/ejabberd-contrib/ejabberd-elixir-modules
 
 Put your modules into ejabberd-contrib directory, and run
 
