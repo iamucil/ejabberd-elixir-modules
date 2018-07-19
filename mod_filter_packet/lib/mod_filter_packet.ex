@@ -1,4 +1,4 @@
-defmodule ModFilterPacketEx do
+defmodule ModFilterPacket do
   @behaviour :gen_mod
 
   import Ejabberd.Logger
